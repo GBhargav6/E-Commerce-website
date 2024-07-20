@@ -1,0 +1,53 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 1rem;
+}
+
+.products {
+    background-color: #f8f9fa;
+}
+
+.products .filters {
+    border-right: 1px solid #dee2e6;
+}
+
+.products .list-group-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.products .price-range {
+    margin-top: 1rem;
+}
+
+.products .single_product {
+    margin-bottom: 2rem;
+}
+
+.products .product_img img {
+    border-radius: 4px;
+}
+
+.products .product-caption {
+    margin-top: 1rem;
+}
+
+.products .product-ratting {
+    margin-bottom: 0.5rem;
+}
+
+.products .product-ratting i {
+    color: #f1c40f;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="./order.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- ==============Navbar starts here============== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">E-Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../home/home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../category/category.html">Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../cart/cart.html">Cart</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../orderConfirmation/order.html">Order Confirmation <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ==============Navbar ends here============== -->
+
+    <!-- ==============Order Confirmation starts here============== -->
+    <section class="order_confirmation py-5 my-5" id="order_confirmation">
+        <div class="container">
+            <div class="section_title text-center mb-5">
+                <h1 class="text-capitalize">Order Confirmation</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center">
+                    <div>
+                        <img src="../images/tickMark.jpg" class="img img-fluid" alt="Success">
+                    </div>
+                    <div>
+                        <h2>Thank You for Your Purchase!</h2>
+                        <h6>A confirmation email has been sent to <b id="email">xyz@gmail.com</b></h6>
+                        <h6><span class="mr-2">Order No:</span><span><b id="orderNumber">123123123123</b></span></h6>
+                        <h6>
+                            <span class="mr-2">Order Status:</span>
+                            <span>
+                                <b>
+                                    <span class="badge badge-danger" id="orderStatus">Pending</span>
+                                </b>
+                            </span>
+                        </h6>
+                        <a href="../home/home.html" class="btn btn-primary btn-lg mt-5">Return to Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============Order Confirmation ends here============== -->
+    <script src="./order.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

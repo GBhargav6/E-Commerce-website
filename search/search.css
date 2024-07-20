@@ -1,0 +1,38 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 1rem;
+}
+
+.search_section {
+    background-color: #f8f9fa;
+}
+
+.search_section .input-group {
+    margin-bottom: 1rem;
+}
+
+.search_section .table-hover {
+    margin-top: 1rem;
+}
+
+.search_section .table img {
+    border-radius: 4px;
+}
+
+.search_section .search-message {
+    display: block;
+    margin-bottom: 1rem;
+}

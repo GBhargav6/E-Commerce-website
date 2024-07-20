@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('assets/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.section_title h1 {
+    color: #333;
+}
+
+.cart {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.bg_cart_1 {
+    background-color: #f8f9fa !important;
+}
+
+.quantity {
+    width: 50px;
+}
+
+.rounded {
+    border-radius: .25rem !important;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+img.img-fluid {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}

@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('assets/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.section_title h1 {
+    color: #333;
+}
+
+.products {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.single_product {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.product_img img {
+    max-height: 200px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.product-caption h4 {
+    font-size: 16px;
+    color: #333;
+}
+
+.new_product .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.mt-small-5 {
+    margin-top: 5px !important;
+}
+
+.mb-small-5 {
+    margin-bottom: 5px !important;
+}
+
+img.img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.rounded {
+    border-radius: .25rem !important;
+}
+
+.single_product .p-1 {
+    padding: .25rem !important;
+}
+
+.single_product .my-3 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.single_product .mt-3 {
+    margin-top: 1rem !important;
+}
